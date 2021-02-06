@@ -23,9 +23,9 @@ TEMPLATE_DIR=os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'w=t^ffg#dzn0$e3sqjoiy0)#w#qp7k11e(8xpt#yy8-)p3ki*+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blogs-space.herokuapp.com','127.0.0.1']
 
 
 # Application definition
