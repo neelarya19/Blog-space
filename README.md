@@ -21,7 +21,7 @@ This is a working live demo : https://blogs-space.herokuapp.com/
 
 ### Landing Page
 
-
+![](https://github.com/neelarya19/Blog-space/blob/master/blogspace/blog-space.png)
 
 ### Development
 Want to contribute? Great!
