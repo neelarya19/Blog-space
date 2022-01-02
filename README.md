@@ -9,7 +9,8 @@ user can create his profile, tell others about himself only what he wants,
 choose his interests corresponding to which he wants to see the contents
 and meet the new people. By using that profile, the user can also make
 posts. Our main goal via this website is to create space for likeminded
-people to hangout and build their community stronger Backend.
+people to hangout and build their community stronger Backend. Some Part of this project are
+from udemy course of python django developer bootcamp
 </td>
 </tr>
 </table>
