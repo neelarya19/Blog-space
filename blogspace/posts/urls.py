@@ -1,4 +1,6 @@
 from django.urls import re_path
+from django.conf import settings
+from django.conf.urls.static import static
 
 from . import views
 
@@ -11,3 +13,6 @@ urlpatterns = [
     re_path(r"by/(?P<username>[-\w]+)/(?P<pk>\d+)/$",views.PostDetail.as_view(),name="single"),
     re_path(r"delete/(?P<pk>\d+)/$",views.DeletePost.as_view(),name="delete"),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
