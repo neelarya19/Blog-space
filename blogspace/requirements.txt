@@ -16,3 +16,4 @@ sqlparse==0.4.1
 whitenoise==5.2.0
 wincertstore==0.2
 zipp==3.4.0
+psycopg2==2.9.3
